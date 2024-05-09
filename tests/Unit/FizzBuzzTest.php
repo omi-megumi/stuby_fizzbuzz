@@ -46,7 +46,6 @@ class FizzBuzzTest extends TestCase
             if ($num % $fizz === 0) {
                 $output .= 'F';
             }
-
             if ($num % $buzz === 0) {
                 $output .= 'B';
             }
